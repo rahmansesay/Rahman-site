@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+}
+
+div{
+     background-image:linear-gradient(rgba(0, 128, 128, 0),rgba(0, 0, 255, 0)),
+     url("https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+     height: 100vh;
+     filter: blur(25px);
+    filter: brightness(100%);
+}
+
+
+
+code and button
+
+
+
+<style>
+    .subscribe-button{
+        background-color: rgba(200, 0, 0);
+        border: none;
+        color: white;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        margin-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        transition: opacity 0.15s;
+        vertical-align: top;
+
+    }
+    .subscribe-button:hover{
+        opacity: 0.8;
+        
+    }
+    .subscribe-button:active{
+        opacity: 0.5;
+        
+    }
+    .join-button{
+        background-color: white;
+        border-color: rgba(41, 118, 211);
+        border-style: solid;
+        border-width: 1px;
+        color: rgba(41, 118, 211);
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 10px;
+
+        transition: background-color 1s,
+        color 1s;
+    }
+    .join-button:hover{
+        background-color: blue;
+        color: white;
+
+    }
+    .join-bitton:active{
+        opacity: 0.7;
+    }
+    .tweet-button{
+        background-color: rgba(2, 137, 255);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 62px;
+        border-radius: 18px;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+        vertical-align: top;
+        
+    }
+    .tweet-button:hover{
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+
+    }
+</style>
+
+
+<button class="subscribe-button">
+    SUBSCRIBE 
+</button>
+
+<button class="join-button">
+    JOIN
+</button>
+
+<button class="tweet-button">
+    Tweet
+</button>
+
+gg
